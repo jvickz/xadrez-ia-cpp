@@ -1,0 +1,9 @@
+* text=auto
+*.png binary
+*.ico binary
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+LICENSE text eol=lf

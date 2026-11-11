@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Xadrez com IA</title>
+  <rect x="2" y="2" width="96" height="96" rx="21" fill="#243b30"/>
+  <rect x="5" y="5" width="90" height="90" rx="18" fill="none" stroke="#43664c" stroke-width="1"/>
+  <ellipse cx="50" cy="87" rx="29" ry="5" fill="#192c23"/>
+  <path d="M30 72 L35 55 L24 56 C17 53 22 46 26 41 L41 25 L41 13 L54 20 C75 26 77 53 67 73 Z"
+        fill="#f5f0d6" stroke="#192c23" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M56 28 C68 39 64 53 55 62" fill="none" stroke="#b8af8d" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="42" cy="36" r="2.4" fill="#243b30"/>
+  <path d="M29 73 L71 73 C75 77 78 81 77 86 L23 86 C22 81 25 77 29 73 Z"
+        fill="#f5f0d6" stroke="#192c23" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M29 80 H71" stroke="#b8af8d" stroke-width="1.7" stroke-linecap="round"/>
+  <rect x="75" y="17" width="6" height="6" rx="1" fill="#81b64c"/>
+  <rect x="81" y="23" width="6" height="6" rx="1" fill="#81b64c"/>
+</svg>

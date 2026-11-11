@@ -1,0 +1,12 @@
+/build/
+/dist/
+/sandbox-results/
+# Rascunho local de divulgação, separado da documentação do produto.
+/docs/DIVULGACAO.md
+*.sav
+*.tmp
+*.exe
+*.o
+*.res
+*.obj
+*.pdb

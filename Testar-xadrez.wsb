@@ -1,0 +1,28 @@
+<Configuration>
+  <Networking>Disable</Networking>
+  <vGPU>Disable</vGPU>
+  <AudioInput>Disable</AudioInput>
+  <VideoInput>Disable</VideoInput>
+  <ClipboardRedirection>Disable</ClipboardRedirection>
+  <PrinterRedirection>Disable</PrinterRedirection>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>%LOCALAPPDATA%\XadrezIA-Sandbox\build</HostFolder>
+      <SandboxFolder>C:\ChessBuild</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>%LOCALAPPDATA%\XadrezIA-Sandbox\runner</HostFolder>
+      <SandboxFolder>C:\ChessRunner</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>%LOCALAPPDATA%\XadrezIA-Sandbox\results</HostFolder>
+      <SandboxFolder>C:\ChessResults</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>cmd.exe /c C:\ChessRunner\executar-testes.cmd</Command>
+  </LogonCommand>
+</Configuration>
