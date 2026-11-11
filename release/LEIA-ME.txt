@@ -1,0 +1,46 @@
+Xadrez com IA 3.3 — Windows x64
+João Vitor (jvickz) — desenvolvimento assistido por OpenAI Codex
+
+COMO JOGAR
+1. Extraia todo o ZIP para uma pasta do seu computador.
+2. Abra XadrezIA.exe na pasta extraída.
+3. Mova as peças por clique ou arraste. A IA responde automaticamente.
+
+Não é necessário compilar, instalar Python, usar o Google Drive ou instalar
+o Windows Sandbox. Sons, desenhos e ícone estão dentro do executável.
+Mantenha o arquivo LICENSE e a pasta licenses junto do programa ao redistribuir.
+Para criar um atalho, use o menu do Windows sobre o executável.
+
+PARTIDAS E CONTROLES
+- Nova partida aplica a cor e dificuldade escolhidas e substitui a partida salva.
+- Desfazer volta seu último lance e a resposta da IA, atualizando as capturas.
+- Som: ligado/desligado controla os seis efeitos sonoros.
+- Cada lance e cada ação de desfazer são salvos automaticamente.
+- Ao reabrir, clique em Continuar para recuperar a partida.
+- Salvar partida continua disponível; Ctrl+S funciona com o foco no tabuleiro.
+- Para fazer roque, mova o rei duas casas para o lado, quando permitido.
+
+O salvamento fica em %LOCALAPPDATA%\XadrezIA\partida.sav.
+Há um único espaço por usuário; duas janelas compartilham o mesmo arquivo.
+O arquivo permanece mesmo após remover a pasta do jogo.
+
+COMPATIBILIDADE
+Pacote para Windows de 64 bits (x64). Não é uma versão para Linux, macOS
+ou Windows de 32 bits. Validado na máquina de desenvolvimento e no
+Windows Sandbox; outras configurações não foram certificadas.
+
+O executável não possui assinatura digital. O Windows pode mostrar um aviso
+ou impedir a execução, dependendo das políticas de segurança do computador.
+Não é necessário desativar as proteções do Windows para consultar o projeto.
+O hash SHA-256 publicado permite conferir a integridade, mas não substitui
+uma assinatura digital.
+
+LICENÇA E CÓDIGO
+O jogo usa a licença MIT, incluída em LICENSE. Avisos de componentes da
+toolchain estão em licenses. O software é fornecido sem garantia.
+
+Código, instruções completas e relato de problemas:
+https://github.com/jvickz/xadrez-ia-cpp
+
+Downloads oficiais:
+https://github.com/jvickz/xadrez-ia-cpp/releases

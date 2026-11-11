@@ -22,7 +22,17 @@ Captura da interface executando uma posição de demonstração; peças, control
 - Peças vetoriais, animações, logo própria e seis efeitos sonoros com opção de silenciar.
 - Versão para terminal e testes automatizados de regras, IA e interface.
 
-## Instalação local no Windows
+## Baixar e jogar no Windows, sem compilar
+
+**[Baixar XadrezIA 3.3.0 para Windows x64](https://github.com/jvickz/xadrez-ia-cpp/releases/download/v3.3.0/XadrezIA-3.3.0-windows-x64.zip)** · [Página da versão e hashes SHA-256](https://github.com/jvickz/xadrez-ia-cpp/releases/tag/v3.3.0)
+
+1. Baixe o ZIP acima e extraia todos os arquivos.
+2. Abra **XadrezIA.exe** na pasta extraída.
+3. Jogue; ao reabrir, clique em **Continuar** para retomar a partida salva.
+
+O pacote inclui instruções e licenças. Não requer compilador, Python, Google Drive ou Windows Sandbox. O executável não tem assinatura digital; políticas do Windows podem avisar ou bloquear sua execução. Não recomendamos desativar proteções. Os arquivos **Source code** nas Releases são destinados a quem quer o código, e não contêm o jogo compilado.
+
+## Compilar e instalar localmente no Windows
 
 Primeiro compile o projeto conforme a seção **Compilar e testar**. O instalador espera `build/xadrez-grafico-v3.exe`, além dos arquivos de `assets/`. Clonar ou baixar apenas o código-fonte não fornece um executável pronto.
 
@@ -98,6 +108,8 @@ Se o Windows bloquear os executáveis de teste, compile-os sem executar e use o 
 ```
 
 `-BuildTests` compila o jogo e as duas suítes; `-Test` também as executa. O nome padrão da interface agora coincide com o esperado pelo instalador e pelo runner. A Área Restrita é uma alternativa de validação; não é uma dependência do jogo instalado.
+
+Para gerar o pacote de distribuição após compilar e testar com a toolchain validada, execute `./empacotar-release.ps1`. Ele cria uma pasta nova em `dist/`, com ZIP e `SHA256SUMS.txt`, incluindo os avisos de runtime em `third-party/`. As notas da versão estão em [release/v3.3.0.md](release/v3.3.0.md).
 
 Para incorporar a logo no Windows, o script usa `zig rc` com Zig, ou `windres` disponível no PATH com GCC/Clang. O nome de saída `xadrez-grafico-v3.exe` identifica a série 3; a instalação local atual corresponde à revisão 3.3.
 
